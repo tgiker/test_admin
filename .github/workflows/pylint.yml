@@ -24,6 +24,3 @@ jobs:
       uses: advanced-security/python-lint-code-scanning-action@v1
       with:
         linter: pylint
-    - name: Analysing the code with pylint
-      run: |
-        pylint $(git ls-files '*.py')
